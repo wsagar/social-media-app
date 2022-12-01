@@ -1,0 +1,46 @@
+.error-popup {
+  width: 300px;
+  background: white;
+  border: 1px solid black;
+  min-height: 300px;
+}
+
+.error-popup .error-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.error-popup .error-header .close-ico {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-popup > div {
+  height: 20%;
+  border-bottom: 1px solid black;
+}
+
+.error-popup > div:nth-child(2) {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-action {
+  padding: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.error-action button {
+  width: fit-content !important;
+}
